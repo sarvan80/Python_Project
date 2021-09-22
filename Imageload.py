@@ -23,3 +23,5 @@ print type(data[0][0])
 file_like=cStringIO.StringIO(data[0][0])
 img=PIL.Image.open(file_like)
 img.show()
+
+# test
